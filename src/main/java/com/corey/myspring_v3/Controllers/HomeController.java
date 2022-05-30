@@ -14,9 +14,8 @@ import java.time.LocalDate.*;
 import java.util.Date;
 
 @Controller
-//@RequestMapping("src/main/resources/static")
 public class HomeController {
-    @GetMapping("/")
+    @GetMapping("/templates")
     public String index(Model model){
 
         return "index";
