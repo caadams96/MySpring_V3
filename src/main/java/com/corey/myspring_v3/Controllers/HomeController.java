@@ -15,7 +15,7 @@ import java.util.Date;
 
 @Controller
 public class HomeController {
-    @GetMapping("/templates")
+    @GetMapping("/)
     public String index(Model model){
 
         return "index";
